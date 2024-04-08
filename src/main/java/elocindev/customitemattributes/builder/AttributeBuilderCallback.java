@@ -23,10 +23,10 @@ public class AttributeBuilderCallback {
                 if (item.getItem() != stack.getItem()) continue;
 
                 NbtCompound nbt = stack.getNbt();
-                if (nbt != null && nbt.getBoolean("Unbreakable") != item.unbreakable) {
-                    nbt.putBoolean("Unbreakable", item.unbreakable);
-                    stack.writeNbt(nbt);
-                }
+                // if (nbt != null && nbt.getBoolean("Unbreakable") != item.unbreakable) {
+                //     nbt.putBoolean("Unbreakable", item.unbreakable);
+                //     stack.writeNbt(nbt);
+                // }
 
                 switch(slot) {
                     case MAINHAND:
