@@ -35,6 +35,7 @@ public class CIAConfig {
     @Comment("Each of the attributes are overrides for modifiers of the same attribute type, depending on each slot correspondingly.")
 
     public List<ItemProperty> items = List.of(
+        /*
         new ItemProperty("examplemod:example_item",
 
             List.of(
@@ -48,7 +49,8 @@ public class CIAConfig {
             new ArrayList<>(),
             new ArrayList<>(),
 
-            false
+            false 
         )
+        */
     );
 }
